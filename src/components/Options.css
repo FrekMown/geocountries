@@ -1,0 +1,21 @@
+#options-form {
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    /* align-self: center; */
+    border: 1px solid black;
+    padding: 4px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgb(138, 36, 36);
+    color: wheat;
+    margin: 5px 20px;
+}
+
+#options-form label {
+    cursor: pointer;
+}
+
+#Options {
+    text-align: center;
+}

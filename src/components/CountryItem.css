@@ -1,0 +1,23 @@
+#CountryItem {
+    display: flex;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    align-items: center;
+}
+
+#CountryItem:hover {
+    background-color: lightblue;
+    cursor: pointer;
+
+}
+
+#flag {
+    width: 50px;
+    margin: 4px;
+}
+
+.selected {
+    background-color: darkblue;
+    color: wheat;
+}
+

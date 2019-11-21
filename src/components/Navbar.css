@@ -1,0 +1,9 @@
+#Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Navbar .title {
+    font-size: 2rem;
+}

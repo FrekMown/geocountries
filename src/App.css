@@ -1,0 +1,72 @@
+/* General Layout */
+html, body, #root, #App {
+    height: 100%;
+}
+
+.title {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#App {
+    display: flex;
+    flex-direction: column;
+    background-color: darkgrey;;
+}
+
+#Navbar {
+    background-color: darkblue;
+    color: wheat;
+    flex: 0 0 6vh;
+}
+
+#app-main-content {
+    flex-grow: 1;
+    display: flex;
+    overflow: hidden;
+}
+
+#app-main-content>div {
+    flex-basis: 18vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 4px 2px;
+    background-color: whitesmoke;
+    padding: 5px;
+
+}
+
+#Summary, #Options {
+    overflow: auto;
+}
+
+#Plots {
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+}
+
+.bigger {
+    font-size: 1.1em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.smaller {
+    font-size: 0.85em;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+

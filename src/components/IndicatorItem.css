@@ -1,0 +1,19 @@
+#IndicatorItem {
+    border-bottom: 1px solid black;
+}
+
+#IndicatorItem:hover {
+    background-color: lightsalmon;
+    cursor: pointer;
+
+}
+
+#flag {
+    width: 50px;
+    margin: 4px;
+}
+
+.selected {
+    background-color: darkred;
+    color: wheat;
+}

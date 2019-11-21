@@ -1,0 +1,16 @@
+#Plots {
+    text-align: center;
+    overflow: hidden;
+}
+
+#Plots select {
+    font-size: 1.4rem;
+    margin: 20px;
+}
+
+.js-plotly-plot {
+    height: 60vh;
+    width: 100%;
+    margin-top: 5vh;
+    overflow: hidden;
+}
